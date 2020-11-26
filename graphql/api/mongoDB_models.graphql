@@ -1,0 +1,15 @@
+type Notice {
+  _id: ID!
+  title: String!
+  description: String!
+  createAt: String!
+  author: [User!]!
+}
+
+type User {
+  _id: ID!
+  userName: String!
+  userPassword: String!
+  email: String!
+  createAt: String!
+}
